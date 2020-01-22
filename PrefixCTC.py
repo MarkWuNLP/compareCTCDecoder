@@ -119,6 +119,3 @@ y_test = softmax(np.random.random([20, 6]))
 beam_test = prefix_beam_decode(y_test, beam_size=100)
 for beam_string, beam_score in beam_test[:20]:
 	print(remove_blank(beam_string), beam_score)
-————————————————
-版权声明：本文为CSDN博主「H.SH」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/weixin_42615068/article/details/93767781
